@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+background-color: #000000;
+}
+
+body{
+font-family: "Lato", sans-serif;
+color:#aaaaaa;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.main {
+  background-color:rgba(192,192,192,0.3);
+  float:left;
+  width:100%;
+  padding:0 20px;
+  color:#FFFFFF;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+h2{
+  text-align:center;
+}
+
+p{
+  border:0px;
+  border-style:solid;
+  margin-right:12.5%;
+  margin-left:12.5%;
+  padding-bottom:2%;
+  font-style: italic;
+}
+
+.mapouter{
+  text-align:right;
+  height:400px;
+  width:500px;
+  margin: 0 auto 0 auto;
+  margin-bottom:20px;
+}
+
+.gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+  height:400px;
+  width:500px;
+  margin: 0 auto 0 auto;
+  margin-bottom:20px;
+}
+
+.tg{
+  border-collapse:collapse;
+  border-spacing:0;
+  table-layout: fixed;
+  width:100%;
+  text-align:center;
+  vertical-align:top;
+}
+
+.tg td{
+  padding:10px 5px;
+  border-style:solid;
+  border-width:0;
+  overflow:hidden;
+  word-break:normal;
+  border-top-width:1px;
+  border-color:#ffffff;
+}
+
+.tg th{
+  font-weight:normal;
+  padding:10px 5px;
+  border-style:solid;
+  overflow:hidden;
+  word-break:normal;
+  border-top-width:0;
+  border-bottom-width:1px;
+  border-right-width:0;
+  border-left-width:0;
+  border-color:#ffffff;
+}
+
+.tables{
+  border-color:white; 
+  border-style:solid; 
+  border-width: 1px; 
+  padding:25px; 
+  width:75%; 
+  margin-left:12.5%;
+  margin-right:12.5%;
+  margin-bottom:2%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 24%;
+  padding: 25px;
+  border-color:white; 
+  border-style:solid; 
+  border-width: 1px; 
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
